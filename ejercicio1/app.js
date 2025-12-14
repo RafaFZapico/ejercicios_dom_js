@@ -17,6 +17,7 @@ const titleh1 = document.querySelector('#pillado')
 console.log('h1 contiene:', titleh1)
 // 1.3 Usa querySelector para mostrar por consola todos los p
 const parrafos = document.querySelectorAll('p')
+
 console.log('los párrafos del DOM son:', parrafos)
 // 1.4 Usa querySelector para mostrar por consola todos los elementos con la clase.pokemon
 const pokemon = document.querySelectorAll('.pokemon')
@@ -30,4 +31,3 @@ console.log('El tercer elemento del listado data-function es:', testMe[2])
 //? segunda variante
 thirdElement = document.querySelectorAll('[data-function]')[2]
 console.log('El tercer elemento del listado data-function es:', thirdElement)
-// console.log(document.querySelectorAll('[data-function]')[2])
